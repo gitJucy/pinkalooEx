@@ -2,7 +2,7 @@
 
 ## the backend
 
-the backend for this excercise is a golang app. The resources for launching the backend are located in pinkaloo_backend/src/github.com/gitJucy/appServer. Build at your GOPATH and run the executable 'appserver'. This will open the service at port 8080. There is a Postman collection JSON at the root of this project that will allow you access the endpoints in this golang service. The Golang servicve persists app metadata, validates metadata when adding, and allows simple keyword searches. Be sure to add App data in Postman before using the frontend.
+the backend for this excercise is a golang app. The resources for launching the backend are located in pinkaloo_backend/src/github.com/gitJucy/appServer. Build at your GOPATH and run the executable 'appserver'. This will open the service at port 8080. There is a Postman collection JSON at the root of this project that will allow you access the endpoints in this golang service. The Golang service persists app metadata, validates metadata when adding, and allows simple keyword searches. Be sure to add App data in Postman before using the frontend.
 
 ## the frontend
 
