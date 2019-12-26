@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "238e268f-3ca1-46cb-af25-38deb9217968",
+		"name": "Golang CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getApps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/apps",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"apps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searchApps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/search",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addApp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"title\": \"An App that may be Worse\",\n        \"version\": \"0.0.1\",\n        \"maintainers\": [\n            {\n                \"email\": \"firstmaintainer@hotmail.com\"\n            },\n            {\n                \"name\": \"secondmaintainer app3\",\n                \"email\": \"secondmaintainer@gmail.com\"\n            }\n        ],\n        \"company\": \"Random Inc.\",\n        \"website\":\"http://bogo\",\n        \"source\": \"https://github.com/random/repo\",\n        \"license\": \"Apache-2.0\",\n        \"description\": \"### Even More Interesting Title\"\n    }"
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/apps",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"apps"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

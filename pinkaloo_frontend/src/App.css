@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  padding: 6rem 2rem;
+}
+li {
+  list-style-type: none;
+}
+input {
+  width: 60vw;
+  height: 2rem;
+  padding-left: 0.5rem;
+  margin: 1rem;
+}
+.resultsList {
+  min-height: 5vh;
+  width: 50vw;
+  margin: 0 auto;
+}
+.searchResultItem {
+  border-top: 1px gray solid;
+  margin: 0.5rem 0;
+}
